@@ -13,7 +13,7 @@ root.render(
   <BrowserRouter>
     <Switch>
       <Route path='/' component={ Home } exact />
-      <Route path='/projetos' component={ Projetos }  />
+      <Route path='/projetos' component={ Projetos } exact  />
       <Route path='/sobre' component={ SobreMim }  />
       <App />
     </Switch>
