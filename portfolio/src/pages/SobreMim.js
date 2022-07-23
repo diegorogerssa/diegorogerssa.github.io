@@ -7,6 +7,7 @@ class SobreMim extends Component{
     return(
       <div className='sobre-mim-container'>
         <NavBar />
+        <h1>em breve</h1>
       </div>
     )
   }

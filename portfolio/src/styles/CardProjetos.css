@@ -1,5 +1,5 @@
 .card-projetos-container{
-  padding-top: 50px;
+  padding: 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -8,8 +8,10 @@
 }
 .card-projetos-container img{
   width: 400px;
+  height: 200px;
   box-shadow: 1px 2px 5px #06090d18; 
   border-radius: 8px;
+  background-color:#364659;
 }
 .card-projetos-container h1{
   text-align: center;

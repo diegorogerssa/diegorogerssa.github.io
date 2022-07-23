@@ -2,4 +2,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #ddecff;
+  width: 1400px;
+  height: 900px;
+  margin: auto;
+}
+.content-container{
+  display: flex;
+  padding: 20px;
+}
+.content-container a {
+  text-decoration: none;
+  color: #06090D;
 }

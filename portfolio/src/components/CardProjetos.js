@@ -3,13 +3,14 @@ import '../styles/CardProjetos.css'
 
 class CardProjetos extends Component{
   render(){
+    const { title, tools, image,  description } = this.props
     return(
       <div className='card-projetos-container'>
-        <h1>titulo projeto</h1>
-        <h4>ferramentas usadas</h4>
-        <img src="https://www.pngplay.com/wp-content/uploads/11/Heliolisk-Pokemon-PNG-HD-Quality.png" alt="" />
+        <h1 >{title}</h1>
+        <h4>{tools}</h4>
+        <img src={ image } alt="" />
         <div className='descricao'>
-          <p>breve descrição projeto</p>
+          <p>{ description }</p>
         </div>
       </div>
 
