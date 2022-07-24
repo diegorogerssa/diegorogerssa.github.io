@@ -7,7 +7,7 @@ import SobreMim from './pages/SobreMim';
 import Projetos from './pages/Projetos';
 import PageNotFound from './pages/PageNotFound';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Route, Switch, Router } from 'react-router-dom';
+import { BrowserRouter, Route, Switch, HashRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
