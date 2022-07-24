@@ -5,6 +5,7 @@ import App from './App';
 import Home from './pages/Home';
 import SobreMim from './pages/SobreMim';
 import Projetos from './pages/Projetos';
+import PageNotFound from './pages/PageNotFound';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
@@ -15,6 +16,7 @@ root.render(
       <Route path='/' component={ Home } exact />
       <Route path='/projetos' component={ Projetos } exact  />
       <Route path='/sobre' component={ SobreMim }  />
+      <Route path='/*' component={ PageNotFound }  />
       <App />
     </Switch>
   </BrowserRouter>

@@ -20,7 +20,7 @@ class Projetos extends Component{
             </a>
             <a href="https://diegorogerssa.github.io/pokedex-react/">
               <CardProjetos
-                title = 'Pokedex'
+                title = 'PokedexX'
                 tools = 'ferramentas usadas'
                 image = 'https://www.pngplay.com/wp-content/uploads/11/Heliolisk-Pokemon-PNG-HD-Quality.png'
                 description = 'Descrição do projeto'
