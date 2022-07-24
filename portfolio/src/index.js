@@ -7,19 +7,21 @@ import SobreMim from './pages/SobreMim';
 import Projetos from './pages/Projetos';
 import PageNotFound from './pages/PageNotFound';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch, Router } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
-    <Switch>
-      <Route path='/' component={ Home } exact />
-      <Route path='/projetos' component={ Projetos } exact  />
-      <Route path='/sobre' component={ SobreMim }  />
-      <Route path='/*' component={ PageNotFound }  />
-      <App />
-    </Switch>
-  </BrowserRouter>
+    
+      <Switch>
+        <Route path='/' component={ Home } exact />
+        <Route path='/projetos' component={ Projetos } exact  />
+        <Route path='/sobre' component={ SobreMim }  />
+        <Route path='/*' component={ PageNotFound }  />
+        <App />
+      </Switch>
+    
+        </BrowserRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function
