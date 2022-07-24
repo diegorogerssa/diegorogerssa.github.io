@@ -23,3 +23,38 @@
 .descricao p{
 text-align:left;
 }
+
+@media screen and (max-width: 1000px){
+  .card-projetos-container{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 250px;
+    height: 300px;
+  }
+  .card-projetos-container img{
+    width: 250px;
+    height: 150px;
+    box-shadow: 1px 2px 5px #06090d18; 
+    border-radius: 8px;
+    background-color:#364659;
+  }
+}
+@media screen and (max-width: 580px){
+  .card-projetos-container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 400px;
+    height: 300px;
+  }
+  .card-projetos-container img{
+    width: 400px;
+    height: 250px;
+    box-shadow: 1px 2px 5px #06090d18; 
+    border-radius: 8px;
+    background-color:#364659;
+  }
+}
