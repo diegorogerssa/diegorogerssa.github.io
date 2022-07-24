@@ -11,17 +11,20 @@ import { BrowserRouter, Route, Switch, Router } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  
+  <Router basename ='/'>
+    <BrowserRouter>
     
-      <Switch>
-        <Route path='/' component={ Home } exact />
-        <Route path='/projetos' component={ Projetos } exact  />
-        <Route path='/sobre' component={ SobreMim }  />
-        <Route path='/*' component={ PageNotFound }  />
-        <App />
-      </Switch>
+        <Switch>
+          <Route path='/' component={ Home } exact />
+          <Route path='/projetos' component={ Projetos } exact  />
+          <Route path='/sobre' component={ SobreMim }  />
+          <Route path='/*' component={ PageNotFound }  />
+          <App />
+        </Switch>
     
-        </BrowserRouter>
+          </BrowserRouter>
+  </Router>
 );
 
 // If you want to start measuring performance in your app, pass a function
