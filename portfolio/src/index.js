@@ -11,15 +11,17 @@ import { BrowserRouter, Route, Switch, HashRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <BrowserRouter>
-        <Switch>
-          <Route path='/' component={ Home } exact />
-          <Route path='/projetos' component={ Projetos } exact  />
-          <Route path='/sobre' component={ SobreMim }  />
-          <Route path='/*' component={ PageNotFound }  />
-          <App />
-        </Switch>
-          </BrowserRouter>
+    
+        <BrowserRouter basename="/">
+          <Switch>
+            <Route path='/' component={ Home } exact />
+            <Route path='/projetos' component={ Projetos } />
+            <Route path='/sobre' component={ SobreMim }  />
+            <Route path='/*' component={ PageNotFound }  />
+            <App />
+          </Switch>
+        </BrowserRouter>
+          
  
 );
 

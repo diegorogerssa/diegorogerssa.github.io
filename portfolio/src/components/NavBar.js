@@ -30,7 +30,6 @@ mudarClasseClose = () => {
         <nav id='nav-container' className = { menu }>
           <ul>
             <li><NavLink className='nav-bar-link' activeClassName="selected" to='/'>&lt; Home /&gt;</NavLink></li>
-            <HashRouter basename="/"/>
             <li><NavLink className='nav-bar-link' activeClassName="selected" to='/projetos'>&lt; Projetos /&gt;</NavLink></li>
             <li><NavLink className='nav-bar-link' activeClassName="selected" to='/sobre'>&lt; Sobre mim /&gt;</NavLink></li>
             <a onClick={this.mudarClasseClose} className='icon-close' href="#nav-container">X</a>
