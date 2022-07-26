@@ -8,7 +8,7 @@ class Home extends Component{
     return(
       <div className='home-container'>
         <NavBar />
-        <h1>em breve</h1>
+        <h1>em breve!</h1>
       </div>
     )
   }
